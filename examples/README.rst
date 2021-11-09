@@ -19,12 +19,13 @@ Dojo CI CD (dojo_ci_cd.py)
 A simple example of integrating Dojo in your CI/CD pipeline.
 
 Pass in the following:
-- product: ID of the product in DefectDojo
-- file: Path to the scanner output file
-- high, medium or low: Maximum number of vulnerabilities allowed to Pass or Fail a build
-- host: URL to Defect Dojo
-- api_key: Defect Dojo API Key
-- User: User associated with the API Key
+
+* product: ID of the product in DefectDojo
+* file: Path to the scanner output file
+* high, medium or low: Maximum number of vulnerabilities allowed to Pass or Fail a build
+* host: URL to Defect Dojo
+* api_key: Defect Dojo API Key
+* User: User associated with the API Key
 
 .. code-block:: bash
 
